@@ -90,8 +90,8 @@ function mousePressed() {
           env.mouseInitState = createVector(x, y);
         }
         console.log(x, y);
-        env.render();
       }
     }
+    env.render();
   }
 }

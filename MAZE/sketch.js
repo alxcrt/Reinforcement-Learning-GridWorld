@@ -48,7 +48,7 @@ function setup() {
 function draw() {
   frameRate(fps.value());
   if (ok) {
-    if (fps.value() > 50) env.render();
+    if (fps.value() < 50) env.render();
 
     action = env.epsilon_greedy();
     // console.log("init state", env.state)

@@ -89,7 +89,6 @@ function mousePressed() {
         if (cellType.value() == "mouse") {
           env.mouseInitState = createVector(x, y);
         }
-        console.log(x, y);
       }
     }
     env.render();
